@@ -4,10 +4,6 @@
     box-sizing: border-box;
 }
 
-body{
-	
-	
-}
 .container{
 	background-color: hsl(193, 100%, 96%);
 	background-image: url("../img/bg-hero-desktop.svg"); 
@@ -21,12 +17,12 @@ body{
 	left: 50px;
 	top:35px;
 }
+
 .button{
 	position: absolute;
 	right: 100px;
 	top:35px;
 	font-family: 'Poppins', sans-serif;
-
 	background-color: #fff;
 	border: solid 2px #fff;
 	text-align: center;
@@ -40,17 +36,18 @@ body{
 	left: 50px;
 	top:160px;
 }
+
 .side-text{
 	position: absolute;
 	left: 50px;
 	top:270px;
 	font-size: 20px;
 }
+
 .button-1{
 	position: absolute;
 	left: 50px;
 	top:400px;
-
 	font-family: 'Poppins', sans-serif;
 	color:#fff;
 	background-color: hsl(322, 100%, 66%);
@@ -60,14 +57,13 @@ body{
 	border-radius: 16px;
 	box-shadow: 2px 2px 5px #D8D8D8;
 }
+
 .header-img{
 	position: relative;
 	left: 800px;
 	top:120px;
 }
-.container-1{
-	
-}
+
 .box-1{
 	border: solid 2px #fff;
 	box-shadow: 0 10px 20px rgba(0,0,0,0.19), 0 6px 6px rgba(0,0,0,0.23);
@@ -75,19 +71,17 @@ body{
 	border-radius: 15px;
 	background-color: #F9E5E5;
 	display:flex;
-
 }
+
 .box-1-text{
 	font-family: 'Open Sans', sans-serif;
 	height: 100%;
 	width:100%;
 	margin-top: 95px;
 	margin-left: 75px;
-
 }
 
 .box-1-img{
-
 	margin-right: 50px;
 	padding-top: 30px;
 	padding-bottom: 30px;
@@ -103,7 +97,6 @@ p{
 	line-height: 1.8em;
 }
 
-
 .box-2{
 	border: solid 2px #fff;
 	box-shadow: 0 10px 20px rgba(0,0,0,0.19), 0 6px 6px rgba(0,0,0,0.23);
@@ -111,7 +104,6 @@ p{
 	border-radius: 15px;
 	background-color: #E1EEDC;
 	display:flex;
-
 }
 .box-2-text{
 	font-family: 'Open Sans', sans-serif;
@@ -137,7 +129,6 @@ p{
 	border-radius: 15px;
 	background-color: #E7E2F1;
 	display:flex;
-
 }
 .box-3-text{
 	font-family: 'Open Sans', sans-serif;
@@ -145,11 +136,9 @@ p{
 	width:100%;
 	margin-top: 95px;
 	margin-left: 75px;
-
 }
 
 .box-3-img{
-
 	margin-right: 50px;
 	padding-top: 30px;
 	padding-bottom: 30px;
@@ -165,9 +154,6 @@ p{
 	font-family: 'Poppins', sans-serif;
 	font-weight: 700;
 	box-shadow: 0 10px 20px rgba(0,0,0,0.19), 0 6px 6px rgba(0,0,0,0.23);
-
-
-
 }
 
 .button-2{
@@ -192,15 +178,58 @@ p{
 	font-size: 24px;
 }
 
-footer{
+#footer{
 	background-color: hsl(192, 100%, 9%);
-	
-	
-  	
-	
+	padding-top: 100px;
+	padding-bottom: 50px;
+}
 
+footer a {
+	font-family: 'Poppins', sans-serif;
+	text-decoration: none;
+	color: white;
+	position: relative;
+	
+}
+
+footer li{
+	list-style: none;
+}
+
+.footer-img{
+	-webkit-filter: brightness(0) invert(1);
+     filter: brightness(0) invert(1);
+     position:relative;
+     left: 90px;
+     bottom: 50px;
+}
+
+.icons {
+	margin-left: 1100px;
+	margin-right: 100px;
+	padding-bottom: 100px;
+	display: flex;
+	justify-content: space-around;
+	align-items: flex-start;
+}
+
+.bottom ul{
+	display: flex;
+	flex-wrap: wrap;
+	margin-left: 500px;
+}
+
+.box_1{
+	flex:50%;
+} 
+
+.box_2{
+	flex:50%;
 }
 
 .contact{
-	color: white;
+	display: flex;
+	flex-direction: column;
+	margin-left: 90px;
+	margin-top: 50px;
 }
